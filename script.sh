@@ -1,6 +1,6 @@
 #!/bin/bash
 # shell script to install and configure git
-
+echo "----Installer-----------"
 if ! [ -x "$(command -v git)" ];then
 echo "git not found on your system"
 echo "installing git"
